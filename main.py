@@ -6,7 +6,7 @@ from pathlib import Path
 
 from past_3mon_data import get_travel_data as get_past_travel_data
 from non_veg_restaurant import get_nvrestaurant as get_non_vegrestaurant
-from sightseeing import get_sightseeing as get_Sighteseeing
+from sightseeing import get_sightseeing as get_Sightseeing
 from veg_restaurant import get_vrestaurant as get_vegrestaurant
 from about import get_about as get_about_location
 
