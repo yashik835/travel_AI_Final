@@ -86,5 +86,5 @@ def get_about(location):
     #with open(fr"C:\Users\techi\OneDrive\Desktop\AI\data\{location}\about.json","w", encoding="utf-8") as f:
         #json.dump(vrest, f, indent=4, ensure_ascii=False)
 
-    return about
+    return jsonify(about)
 
