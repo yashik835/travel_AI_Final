@@ -641,7 +641,7 @@ color:red;
     </div>
 `	;
 		let currentPage = 1;
-	fetch(`/about?location=${encodeURIComponent(selectedlocation)}`)
+	fetch(`${API_BASE}/about?location=${encodeURIComponent(selectedlocation)}`)
 		.then(response => response.json())
 			
 			.then(data =>
