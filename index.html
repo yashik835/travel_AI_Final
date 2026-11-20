@@ -168,10 +168,11 @@
 
 <h1 class="title"><i>Travel Intelligent Guide</i></h1>
 <div class="search-container">
-<input type='text' id='location' list="places" placeholder='Search Location' >
-<datalist id="places">
-    <option value="Colombo">
-</datalist>
+<input type='text' id='location' list="places" placeholder="Enter destination" oninput="searchLocation()" >
+
+<input type="hidden" id="location_id">
+
+<div id="results"></div>
 
 <button onclick="showOptions()">Travel guide for an year</button>
 <button id="info" onclick="getInfo()">Essentials</button>
@@ -254,5 +255,6 @@ function goCurrMonth()
 window.location.href="travel.html?location="+ encodeURIComponent(location)+"&type=currmonth";
 }
 </script>
+<script src="script.js"></script>
 </body>
 </html>
