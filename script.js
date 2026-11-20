@@ -9,7 +9,7 @@ async function searchLocation() {
     if (input.length < 2) return;
 
     const response = await fetch(
-        "https://travel-api.YOUR-SUBDOMAIN.workers.dev/search?q=" +
+        "https://travel-api.cyashika805.workers.dev/search?q=" +
         encodeURIComponent(input)
     );
 
